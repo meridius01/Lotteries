@@ -1,4 +1,22 @@
 # Design Patterns for Ethereum and Hyperledger Lottery
+
+## Table of Contents
+<!-- TOC -->
+- [1. Simple Lottery](#1-simple-lottery)
+    - [1.1. Ethereum](#11-ethereum)
+    - [1.2. Hyperledger](#12-hyperledger)
+- [2. Recurring Lottery](#2-recurring-lottery)
+    - [2.1. Ethereum](#21-ethereum)
+    - [2.2. Hyperledger](#22-hyperledger)
+- [3. RNG Lottery](#3-rng-lottery)
+    - [3.1. Ethereum](#31-ethereum)
+    - [3.2. Hyperledger](#32-hyperledger)
+- [4. Powerball](#4-powerball)
+    - [4.1. Ethereum](#41-ethereum)
+    - [4.2. Hyperledger](#42-hyperledger)
+- [Reference](#reference)
+<!-- /TOC -->
+
 ## I. Simple Lottery
 In this type of lottery the winner will be selected from all participants who bought a lottery ticket randomly. In this type of lottery the players can only buy one ticket per transaction and there is no winning number or combination to draw to select the winner.
 ### 1.1 Ethereum
@@ -52,3 +70,7 @@ Powerball is a type of lottery that a user picks 6 numbers per ticket. The first
 Authors :
 
 Marvin Clyde Custodio, Joshua Malabanan, Joshua Pentinio, Paolo Syd Ruiz, Ronnel Galag
+
+## Reference
+
+Ethereum reference: Iyer, K. & Dannen, C. (2018). _Building Games with Ethereum Smart Contracts_ (pp. 171-209). Brooklyn, New York: Apress

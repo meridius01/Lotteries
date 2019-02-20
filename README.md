@@ -39,6 +39,15 @@ RNG Lottery is a lottery variant, where the owner of the contract will draw a nu
 ## IV. Powerball Lottery
 Powerball is a type of lottery that a user picks 6 numbers per ticket. The first 5 numbers are the standard numbers from 1-69 and the sixth number are the special number from 1-26 that offers extra rewards. Every 15 seconds, a drawing of tickets is held and a winning ticket that consists of 6 numbers is picked. Prizes are paid out based on the number of winning numbers that matched on your ticket. 
 ### 4.1 Ethereum
+ * Before compiling the smart contract, go to Settings and change the Solidity version to 0.4.15.
+ * Go to the Compile tab and click the "Start to compile" button to compile the smart contract.
+ * Go to the Run tab and change the Environment to "JavaScript VM".
+ * Click the "Create" button below to deploy the smart contract.
+ * In order to buy a ticket, you must pay 0.002 ether and pick 6 numbers, the first 5 number must between 1-69 and the sixth number must     between 1-26. (ex. [[1,2,3,4,5,6]])
+ * Click the buy button to buy the ticket.
+ * To draw the winning numbers, enter the round number and click the "drawNumbers" button.
+ * To know the winning numbers, enter again the round number and click the "winningNumbers" button. Click the details button and you will     see the winning numbers.
+ * Prizes are paid out based on the number of winning numbers matched on your ticket
 ### 4.2 Hyperledger
 Authors :
 

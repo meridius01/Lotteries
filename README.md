@@ -32,7 +32,14 @@ In this type of lottery the winner will be selected from all participants who bo
  * Same with Ethereum, the only user who deployed the chain code can only draw the winner.
  * The jackpot is the total sum of the tickets from participants, which can be withdraw by the winner.
 ## II. Recurring Lottery
+This kind of lottery is also similar with the simple lottery, but more realistic. The difference is that this lottery will occur in rounds so that a new prize pool is started every time the old one closes, and users are allowed to purchase multiple tickets in one transaction.
 ### 2.1 Ethereum
+ * In Ethereum, after deploying the smart contract, the owner must set the ticket’s price and the duration of lottery.
+ * After that, the owner can start the lottery.
+ * The first thing that the user needs to do is to buy a one or multiple ticket in order to join a round in lottery.
+ * The owner will close the ticket for the round, then draw winner in the current round.
+ * If the user is the winner, the user can withdraw the price.
+ * If the user didn’t win, he can join again in the next round. Repeat step in buying ticket.
 ### 2.2 Hyperledger
 ## III. RNG Lottery
 RNG Lottery is a lottery variant, where the owner of the contract will draw a number and checks it if who have won the lottery. First, the contract owner will deploy the contract with the given transaction blocks to determine the state if the buying phase ends and the reveal phase ends. After deployment, the participants will create commitment with their number and pay. When the buying phase ends, the reveal phase starts. During the reveal phase, the participants will reveal their numbers. If they have not reveal their number within the duration, their ticket will be forfeited. When the reveal phase ends, the owner will draw a number to check if anyone have that number. The participants can view who have won the lottery. If it is a winning number, the participant of the winning number can withdraw its winnings, thus ending the whole lottery.

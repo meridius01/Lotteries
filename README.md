@@ -41,6 +41,12 @@ This kind of lottery is also similar with the simple lottery, but more realistic
  * If the user is the winner, the user can withdraw the price.
  * If the user didn’t win, he can join again in the next round. Repeat step in buying ticket.
 ### 2.2 Hyperledger
+ * In recurring lottery in Hyperledger, you need first to set the duration before deploying the chain code. That is similar to simple lottery.
+ * After that, participants must register their chain code before joining the lottery to recognized each peer.
+ * Unlike Ethereum, Hyperledger does not use an own crypto currency but they can use digital money to buy tickets.
+ * Multiple tickets can be bought by users.
+ * Same with Ethereum, the only user who deployed the chain code can only draw the winner.
+ * If the user win, he can withdraw the prize. If not, he can join again in the next lottery round by repeating first step in buying tickets.
 ## III. RNG Lottery
 RNG Lottery is a lottery variant, where the owner of the contract will draw a number and checks it if who have won the lottery. First, the contract owner will deploy the contract with the given transaction blocks to determine the state if the buying phase ends and the reveal phase ends. After deployment, the participants will create commitment with their number and pay. When the buying phase ends, the reveal phase starts. During the reveal phase, the participants will reveal their numbers. If they have not reveal their number within the duration, their ticket will be forfeited. When the reveal phase ends, the owner will draw a number to check if anyone have that number. The participants can view who have won the lottery. If it is a winning number, the participant of the winning number can withdraw its winnings, thus ending the whole lottery.
 ### 3.1 Ethereum

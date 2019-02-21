@@ -80,6 +80,11 @@ Powerball is a type of lottery that a user picks 6 numbers per ticket. The first
  * To know the winning numbers, enter again the round number and click the "winningNumbers" button. Click the details button and you will     see the winning numbers.
  * Prizes are paid out based on the number of winning numbers matched on your ticket
 ### 4.2 Hyperledger
+ * To buy a ticket, the participants must register themselves first before joining in the lottery.
+ * In Hyperledger, there are no cryptocurrency unlike other blockchain platforms but you can use digital money to buy tickets.
+ * Once you've registered in the game, pick 6 numbers, the first 5 number must between 1-69 and the sixth number must between 1-26.
+ * In every 15 seconds, a drawing is held and a winning ticket consist of six numbers is picked.
+ * The prizes are paid out based on the number of winning numbers matched on your ticket.
 Authors :
 
 Marvin Clyde Custodio, Joshua Malabanan, Joshua Pentinio, Paolo Syd Ruiz, Ronnel Galag
